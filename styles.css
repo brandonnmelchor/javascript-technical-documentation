@@ -21,6 +21,7 @@ nav {
   position: fixed;
   left: 25px;
   width: 350px;
+  height: 100%;
 }
 
 main {
@@ -28,6 +29,11 @@ main {
   padding: 10px;
   position: absolute;
   left: 375px;
+}
+
+nav ul {
+  height: 75%;
+  overflow-y: auto;
 }
 
 nav ul li {
