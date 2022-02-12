@@ -22,6 +22,7 @@ nav {
   left: 25px;
   width: 350px;
   height: 100%;
+  overflow: hidden;
 }
 
 main {
@@ -32,6 +33,9 @@ main {
 }
 
 nav ul {
+  box-sizing: content-box;
+  padding-right: 20px;
+  width: 100%;
   height: 75%;
   overflow-y: auto;
 }
