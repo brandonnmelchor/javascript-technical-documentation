@@ -91,8 +91,8 @@ code {
   }
 
   nav {
-    width: 95%;
     position: static;
+    width: 95%;
     min-width: 550px;
   }
 
@@ -102,13 +102,12 @@ code {
 
   nav ul li {
     display: inline-block;
+    margin-right: 27px;
+    padding: 0px 0px 0px 10px;
     width: 50%;
     height: 25px;
-    padding: 0px 0px 0px 10px;
-    margin-right: 27px;
-    border: 1px solid #d0d0d5;
     background-color: #2a2a40;
-    border-radius: 2px;
+    border: 1px solid #d0d0d5;
   }
 
   main {
