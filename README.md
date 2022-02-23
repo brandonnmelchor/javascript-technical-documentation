@@ -6,6 +6,6 @@ All documentation on this page was taken from [MDN](https://developer.mozilla.or
 
 https://codepen.io/brandonnmelchor/pen/OJOjJPZ
 
-![Technical Documentation Page screenshot 01](https://github.com/brandonnmelchor/FCC-Technical-Documentation/blob/main/screenshot%2001.jpg)
+![](https://github.com/brandonnmelchor/FCC-Technical-Documentation/blob/main/screenshot%2001.png?raw=true)
 
-![Technical Documentation Page screenshot 02](https://raw.githubusercontent.com/brandonnmelchor/FCC-Technical-Documentation/main/screenshot%2002.jpg)
+![](![image](https://user-images.githubusercontent.com/97859992/155266786-42d34cfb-1025-4d34-8826-8c9ea9da169d.png)
