@@ -1,58 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Mono&display=swap");
+
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  background-color: #0a0a23;
-  font-family: "Lato", sans-serif;
+  background-color: #334257;
+  font-family: "Lato";
   font-size: 20px;
-  color: #d0d0d5;
+  color: #eeeeee;
 }
 
 header {
-  margin: 25px 0 10px;
-  font-family: "Roboto Mono", monospace;
+  margin-bottom: 20px;
+  font-family: "Roboto Mono";
   font-size: 1.6em;
-  color: #ffffff;
 }
 
 nav {
-  margin-top: 10px;
   position: fixed;
-  left: 25px;
-  width: 350px;
-  height: 100%;
+  padding: 50px 0px;
+  left: 50%;
+  transform: translateX(-625px);
+  width: 325px;
+  height: 100vh;
   overflow: hidden;
 }
 
 main {
-  margin-right: 25px;
-  padding: 10px;
   position: absolute;
-  left: 375px;
+  padding: 50px 20px;
+  left: 50%;
+  transform: translateX(-300px);
+  width: 950px;
 }
 
 nav ul {
   box-sizing: content-box;
   padding-right: 20px;
   width: 100%;
-  height: 80%;
+  height: 90%;
   overflow-y: auto;
 }
 
 nav ul li {
   text-align: left;
   display: block;
-  width: 100%;
-  height: 50px;
-  padding: 11px 0px;
-  margin-left: -30px;
+  min-height: 40px;
+  padding: 7.5px;
 }
 
 nav ul li:hover {
   cursor: pointer;
-  background-color: #f5f6f7;
-  color: #0a0a23;
+  background-color: #eeeeee;
+  color: #334257;
 }
 
 nav ul li a {
@@ -66,66 +69,108 @@ a:active {
   color: inherit;
 }
 
+section:not(:last-of-type) {
+  margin-bottom: 75px;
+}
+
+p,
 section li {
-  padding: 8px 0px 8px 5px;
-  margin-left: 25px;
+  margin: 20px 0px;
+}
+
+section li {
+  margin-left: 30px;
 }
 
 code {
   display: block;
-  margin: 0 20px;
-  padding: 15px;
+  margin-left: 30px;
+  padding: 20px;
   width: 75%;
-  border-radius: 10px;
-  background-color: #3b3b4f;
+  border-radius: 5px;
+  background-color: #476072;
+  color: #eeeeee;
   font-family: inherit;
   font-size: inherit;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1300px) {
   nav {
-    left: 20px;
+    transform: translateX(-600px);
     width: 300px;
   }
 
   main {
-    margin-right: 20px;
-    left: 320px;
+    transform: translateX(-300px);
+    width: 900px;
   }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 1200px) {
+  nav {
+    transform: translateX(-525px);
+    width: 250px;
+  }
+
+  main {
+    transform: translateX(-275px);
+    width: 800px;
+  }
+}
+
+@media (max-width: 1100px) {
+  nav {
+    transform: translateX(-475px);
+  }
+
+  main {
+    transform: translateX(-225px);
+    width: 700px;
+  }
+}
+
+@media (max-width: 975px) {
+  nav {
+    transform: translateX(-425px);
+  }
+
+  main {
+    transform: translateX(-175px);
+    width: 600px;
+  }
+}
+
+@media (max-width: 875px) {
   body {
-    padding: 10px 0px 10px 20px;
+    min-width: 615px;
     font-size: 18px;
   }
 
   nav {
     position: static;
-    width: 95%;
-    min-width: 550px;
-  }
-
-  header {
-    margin: 10px 0 10px;
+    transform: none;
+    margin: 0 5%;
+    width: 90%;
+    height: auto;
+    text-align: center;
   }
 
   nav ul li {
     display: inline-block;
-    margin-right: 27px;
-    padding: 0px 0px 0px 10px;
-    width: 50%;
-    height: 25px;
-    background-color: #2a2a40;
-    border: 1px solid #d0d0d5;
+    width: 47%;
+    min-height: 40px;
+    padding: 7.5px;
+    margin: 5px;
+    text-align: center;
+    border: 1px solid #476072;
+    border-radius: 5px;
   }
 
   main {
     position: static;
-    margin-right: 10px;
-    top: 300px;
-    left: 10px;
-    width: 95%;
-    min-width: 550px;
+    transform: none;
+    padding: 50px 20px;
+    margin: 0 5%;
+    width: 90%;
   }
 }
