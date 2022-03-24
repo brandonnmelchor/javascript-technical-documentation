@@ -1,4 +1,4 @@
-# FCC-Technical-Documentation
+# JavaScript-Technical-Documentation
 
 I built a JavaScript Technical Documentation page using vanilla HTML and CSS.
 
