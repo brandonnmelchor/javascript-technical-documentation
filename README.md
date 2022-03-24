@@ -1,8 +1,6 @@
 # JavaScript-Technical-Documentation
 
-I built a JavaScript Technical Documentation page using vanilla HTML and CSS.
-
-All documentation on this page was taken from [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide).
+I built a JavaScript Technical Documentation page using vanilla HTML and CSS. All documentation on this page was taken from [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide).
 
 https://brandonnmelchor.github.io/JavaScript-Technical-Documentation/
 
